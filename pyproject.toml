@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", 
+"wheel", 
+"numpy>=1.23"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pynverse"
+version = "0.0.1"
+dependencies = [
+    "numpy>=1.23"
+]

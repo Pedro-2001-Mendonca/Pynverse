@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/pynverse/__init__.py
+src/pynverse/inverse.py
+src/pynverse.egg-info/PKG-INFO
+src/pynverse.egg-info/SOURCES.txt
+src/pynverse.egg-info/dependency_links.txt
+src/pynverse.egg-info/requires.txt
+src/pynverse.egg-info/top_level.txt
+src/pynverse/_native/core.c
+src/pynverse/_native/matrix_api.c
+src/pynverse/_native/matriz.c
