@@ -11,7 +11,7 @@ A API é simples e expõe apenas uma função pública: `inv`.
 `pip install pynverse`
 
 ### uso básico
-`mport numpy as np
+import numpy as np
 
 from pynverse import inv
 
