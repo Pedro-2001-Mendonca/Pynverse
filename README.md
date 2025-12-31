@@ -8,10 +8,11 @@ A API é simples e expõe apenas uma função pública: `inv`.
 ---
 
 ## instalação
-pip install pynverse
+`pip install pynverse`
 
 ### uso básico
-import numpy as np
+`mport numpy as np
+
 from pynverse import inv
 
 A = np.array([
