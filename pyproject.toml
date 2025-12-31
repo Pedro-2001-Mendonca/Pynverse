@@ -7,6 +7,7 @@ build-backend = "scikit_build_core.build"
 [project]
 name = "pynverse"
 version = "0.0.1"
+readme = "README.md"
 dependencies = [
     "numpy>=1.23"
 ]
