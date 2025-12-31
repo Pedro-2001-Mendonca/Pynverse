@@ -20,6 +20,7 @@ A = np.array([
 ], dtype=np.float32)
 
 A_inv = inv(A)
+
 print(A_inv)
 
 
