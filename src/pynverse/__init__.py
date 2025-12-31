@@ -1,4 +1,4 @@
-from .inverse import inv_from_array
+from .inverse import inv
 
 # def inv(x, *args, **kwargs):
 #     if isinstance(x, str):
@@ -6,8 +6,5 @@ from .inverse import inv_from_array
     
 #     else:
 #         return inv_from_array(x, *args)
-
-def inv(x):
-    return inv_from_array(x)
 
 __all__ = ["inv"]

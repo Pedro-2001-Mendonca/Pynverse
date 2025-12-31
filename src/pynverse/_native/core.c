@@ -1,9 +1,7 @@
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include <numpy/arrayobject.h>
-#include <time.h>
-#include <stdio.h>
-
+#include <math.h>
 #include "matrix_api.h"
 
 /* Wrapper */
@@ -31,15 +29,7 @@ static PyObject* py_inv_from_array(PyObject* self, PyObject* args) {
 
     float* data = (float*)PyArray_DATA(array);
 
-    clock_t start = clock();
-
     float* result = invert_from_array(data, size);
-
-    clock_t end = clock();
-
-    double elapsed = (double)(end-start) / CLOCKS_PER_SEC;
-
-    printf("Tempo necessário para o cálculo: %lf segundos\n", elapsed);
 
     if (!result) {
         Py_DECREF(array);

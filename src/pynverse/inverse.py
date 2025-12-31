@@ -113,7 +113,7 @@ def _check_dimension(origin_arr) -> np.ndarray:
     raise InvalidMatrixException("The given matrix is not supported.")
 
 
-def inv_from_array(origin_arr : list[float | int] | np.ndarray[list[float | int]] | str | list[list[float | int]]) -> SquareMatrix:      
+def inv(origin_arr : list[float | int] | np.ndarray[list[float | int]] | str | list[list[float | int]]) -> SquareMatrix:      
             
     origin_arr = np.ascontiguousarray(_check_dimension(origin_arr), np.float32)
 
