@@ -24,7 +24,7 @@ A API é simples e expõe apenas uma função pública: `inv`.
 
 `print(A_inv)`
 
-das
+
 *   Atualmente suporta float32
 *   Uso interno de código nativo para computação intensiva
 
