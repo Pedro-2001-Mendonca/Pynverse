@@ -11,24 +11,20 @@ A API é simples e expõe apenas uma função pública: `inv`.
 `pip install pynverse`
 
 ### uso básico
-import numpy as np
+`import numpy as np`
 
-from pynverse import inv
+`from pynverse import inv`
 
-A = np.array([
+`A = np.array([
     [1, 2],
     [3, 4]
-], dtype=np.float32)
+], dtype=np.float32)`
 
-A_inv = inv(A)
+`A_inv = inv(A)`
 
-print(A_inv)
+`print(A_inv)`
 
-
-### detalhes técnicos
-*   Implementação nativa em C via Python C API
-*   Integração com NumPy (ndarray)
-*   Focado em matrizes quadradas
+das
 *   Atualmente suporta float32
 *   Uso interno de código nativo para computação intensiva
 
